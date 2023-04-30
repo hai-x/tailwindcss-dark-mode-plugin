@@ -1,10 +1,11 @@
 {
   "name": "tailwindcss-dark-mode-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dark mode plugin for tailwind css",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
+  "repository": "https://github.com/haijie-x/tailwindcss-dark-mode-plugin.git",
   "exports": {
     ".": {
       "require": "./index.js",
