@@ -1,0 +1,24 @@
+{
+  "name": "tailwindcss-dark-mode-plugin",
+  "version": "0.0.1",
+  "description": "Dark mode plugin for tailwind css",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./esmWrapper.mjs"
+    }
+  },
+  "main": "index.js",
+  "scripts": {
+    "release": "bumpp && npm publish"
+  },
+  "author": "haijie-x",
+  "license": "ISC",
+  "devDependencies": {
+    "color": "^4.2.3",
+    "bumpp": "^8.2.1"
+  }
+}
