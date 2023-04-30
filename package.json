@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-dark-mode-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Dark mode plugin for tailwind css",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
