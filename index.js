@@ -295,7 +295,7 @@ const themeColors = {
 const themePlugin = ({ addBase }) => {
   addBase({
     ":root": {
-      "--tw-var-black": "0,0,0",
+      "--tw-var-black": "12,12,12",
       "--tw-var-white": "255,255,255",
       "--tw-var-slate-50": "248,250,252",
       "--tw-var-slate-100": "241,245,249",
@@ -540,9 +540,9 @@ const themePlugin = ({ addBase }) => {
       "--tw-var-rose-900": "136,19,55",
       "--tw-var-rose-950": "76,5,25",
     },
-    "html[theme='dark']": {
+    ":root.dark": {
       "--tw-var-black": "255,255,255",
-      "--tw-var-white": "0,0,0",
+      "--tw-var-white": "12,12,12",
       "--tw-var-slate-50": "2,6,23",
       "--tw-var-slate-100": "15,23,42",
       "--tw-var-slate-200": "30,41,59",
@@ -789,7 +789,7 @@ const themePlugin = ({ addBase }) => {
   });
 };
 
-const darkMode = ["class", 'html[theme="dark"]'];
+const darkMode = ["class"];
 
 module.exports.themeColors = themeColors;
 module.exports.themePlugin = themePlugin;
